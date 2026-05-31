@@ -1,0 +1,8 @@
+docker build -t wdrazanie_ai . 
+
+  docker run -d \
+  --name projekt_wdrazanie_ai \
+  -p 8000:8000 \
+  wdrazanie_ai:latest
+
+  docker restart projekt_wdrazanie_ai
